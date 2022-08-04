@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blurred"
+    tools:context=".MainActivity3_otp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Video Calls"
+        android:textColor="#F4F3F3"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTP Sent to"
+        android:textColor="#F4F1F1"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.509" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="197dp"
+        android:layout_height="42dp"
+        android:text="+91"
+        android:textColor="#F8F4F4"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <LinearLayout
+        android:id="@+id/loginBtn"
+        android:layout_width="380dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+
+        android:background="@drawable/white_rounded_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.76">
+
+        <EditText
+            android:id="@+id/editTextPhone1"
+            android:layout_width="64dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="#0B0B0B"
+            android:textColorHighlight="#F4F2F2"
+            android:textColorHint="#F4EFEF"
+            android:textColorLink="#F8F4F4"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.582"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextPhone2"
+            android:layout_width="64dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textColorHighlight="#F4F2F2"
+            android:textColorHint="#F4EFEF"
+            android:textColorLink="#F8F4F4"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.582"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextPhone3"
+            android:layout_width="64dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="#040404"
+            android:textColorHighlight="#F4F2F2"
+            android:textColorHint="#F4EFEF"
+            android:textColorLink="#F8F4F4"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.582"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextPhone4"
+            android:layout_width="64dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textColorHighlight="#F4F2F2"
+            android:textColorHint="#F4EFEF"
+            android:textColorLink="#F8F4F4"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.582"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextPhone5"
+            android:layout_width="64dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHighlight="#F4F2F2"
+            android:textColorHint="#F4EFEF"
+            android:textColorLink="#F8F4F4"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.582"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextPhone6"
+            android:layout_width="64dp"
+            android:layout_height="59dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHighlight="#F4F2F2"
+            android:textColorHint="#F4EFEF"
+            android:textColorLink="#F8F4F4"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.582"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/green"
+        android:text="CONTINUE"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
